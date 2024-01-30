@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+section img {
+    width: 700px;
+    height: 500px;
+}
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(19, 19, 19);
+
+    /* height: 100vh;
+    width: 100vw;
+    background-image: url('images/darkbackground.jpeg');
+    background-position: none;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+nav {
+    width: 100%;
+    top: 0;
+    position: relative;
+    height: 100px;
+    color: grey;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#logo {
+    height: 85px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: blueviolet;
+}
+
+#Home {
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+p {
+    padding: 10px 0px;
+    width: 800px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+li {
+    padding: 0px 20px;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: 1.1em;
+}
+
+/*--------------------------------- SECTION 1 ---------------------------------  */
+.container {
+    margin: 40px 0px;
+    padding: 0px 40px;
+}
+
+
+
+#contact-card {
+    margin-left: 40px;
+    color: black;
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+#contact-card h2 {
+    margin-bottom: 20px;
+}
+
+form {
+
+    font-size: 1.1em;
+    text-align: left;
+    
+}
+
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+
+#f-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 20px 60px;
+    margin-top: 20px;
+}
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
